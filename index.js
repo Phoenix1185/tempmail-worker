@@ -1,6 +1,6 @@
 export default {
   async email(message, env, ctx) {
-    const url = env.WEBHOOK_URL || 'https://your-app.up.railway.app/webhook/raw';
+    const url = env.WEBHOOK_URL || 'https://phoeniximagebot.qzz.io/webhook/raw';
     const secret = env.WEBHOOK_SECRET || 'change-me';
 
     const rawEmail = await new Response(message.raw).text();
