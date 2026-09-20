@@ -6,3 +6,4 @@ preview_urls = true
 
 [vars]
 WEBHOOK_URL = "https://bitcryptotradingco.qzz.io/webhook/raw"
+WEBHOOK_SECRET = "860597c04bbc9473fa15db1379c50ab3325d8c080eb09a38806e2ad9b485e934"
