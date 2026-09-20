@@ -1,0 +1,6 @@
+name = "tempmail-worker"
+main = "index.js"
+compatibility_date = "2026-09-20"
+
+[vars]
+# Set WEBHOOK_URL and WEBHOOK_SECRET in Cloudflare's environment settings.
